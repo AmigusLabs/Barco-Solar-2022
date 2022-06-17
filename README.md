@@ -21,14 +21,11 @@ Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, 
 
 ## Enlaces
 
+- <a href="http://regatasolar.org" target="_blank">Regata Solar de Marine Instruments</a>
 - <a href="https://www.amiguslabs.org" target="_blank">Amigus Labs</a>
-
 - <a href="https://www.clipcarbono.com" target="_blank">ClipCarbono</a>
-
 - <a href="http://aindustriosa.org" target="_blank">A Industriosa</a>
-
 - <a href="https://fablableon.org" target="_blank">Fab Lab León</a>
-
 - <a href="https://www.esne.es" target="_blank">ESNE</a>
 
 
