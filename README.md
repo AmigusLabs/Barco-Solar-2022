@@ -19,6 +19,8 @@ Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, 
 
 1x Castropox 4307/1209 Resina Epoxi de usos generales (<a href="https://www.castrocompositesshop.com/es/resinas/1099-resina-epoxi-castropox-43071209.html" target="_blank">Castro Composites</a>)
 
+1x soporte helice y timon (<a href="https://es.aliexpress.com/item/32901476708.html" target="_blank">Aliexpress</a>)
+
 ## Enlaces
 
 - <a href="http://regatasolar.org" target="_blank">Regata Solar de Marine Instruments</a>
