@@ -1,6 +1,6 @@
 # Barco-Solar-2022
 
-Hemos creado de nuevo un barco impreso en 3d para participar en la <a href="http://regatasolar.org" target="_blank">Regata Solar de Marine Instruments</a>. Esta vez un trimaran de unos 9Kg de peso y un volumen total de 29 litros.
+Hemos creado de nuevo (<a href="https://www.amiguslabs.org/portfolio_page/barco-solar/" target="_blank">Barco 2018</a> -  <a href="https://www.amiguslabs.org/portfolio_page/amigus-labs-barco-solar19/" target="_blank">Barco 2019</a>) un barco impreso en 3d para participar en la <a href="http://regatasolar.org" target="_blank">Regata Solar de Marine Instruments</a>. Esta vez un trimaran de unos 9Kg de peso y un volumen total de 29 litros.
 
 ![Barco_3D](imagenes/cinema_4d_barco.png)
 
