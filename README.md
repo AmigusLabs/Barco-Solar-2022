@@ -2,6 +2,8 @@
 
 Hemos creado de nuevo un barco impreso en 3d para participar en la <a href="http://regatasolar.org" target="_blank">Regata Solar de Marine Instruments</a>. Esta vez un trimaran de unos 9Kg de peso y un volumen total de 29 litros.
 
+![Barco_3D](imagenes/cinema_4d_barco.png)
+
 Se ha diseñado integramente en Cinema 4D y dividio en 26 piezas para imprimir, secciones de hasta 250x250x200mm. Para optimizar la impresión intentamos que cada sección no tardase más de 10 horas en imprimirse, para intentar imprimir por el dia y dormir por la noche :P
 
 Evitanto el uso de soportes a la hora de imprimir se han hecho algunas secciones que finalmente se pegan para poder imprimir sobre el lado más plano y evitar luego el postprocesado.
