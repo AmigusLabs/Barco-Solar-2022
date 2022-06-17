@@ -4,7 +4,9 @@ Hemos creado de nuevo (<a href="https://www.amiguslabs.org/portfolio_page/barco-
 
 ![Barco_3D](imagenes/cinema_4d_barco.png)
 
-Se ha diseñado integramente en Cinema 4D y dividio en 26 piezas para imprimir, secciones de hasta 250x250x200mm. Para optimizar la impresión intentamos que cada sección no tardase más de 10 horas en imprimirse, para intentar imprimir por el dia y dormir por la noche :P
+Se ha diseñado integramente en Cinema 4D y dividio en 30 piezas para imprimir, secciones de hasta 250x250x200mm. Para optimizar la impresión intentamos que cada sección no tardase más de 10 horas en imprimirse, para intentar imprimir por el dia y dormir por la noche :P
+
+![Barco_secciones 3D](imagenes/barco_partes.png)
 
 Evitanto el uso de soportes a la hora de imprimir se han hecho algunas secciones que finalmente se pegan para poder imprimir sobre el lado más plano y evitar luego el postprocesado.
 
