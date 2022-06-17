@@ -8,6 +8,8 @@ Evitanto el uso de soportes a la hora de imprimir se han hecho algunas secciones
 
 Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, se han hecho unas secciones en cada pieza para pegar y encajar unos pequeños tubos impresos de unos 10x10x50mm
 
+![Insertos-PETG](imagenes/1-inserto_petg.png)
+
 
 ## Materiales
 
