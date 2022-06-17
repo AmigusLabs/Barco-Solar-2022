@@ -25,7 +25,7 @@ Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, 
 
 - <a href="https://www.clipcarbono.com" target="_blank">ClipCarbono</a>
 
-- <a href="[https://www.clipcarbono.com](http://aindustriosa.org)" target="_blank">A Industriosa</a>
+- <a href="http://aindustriosa.org" target="_blank">A Industriosa</a>
 
 - <a href="https://fablableon.org" target="_blank">Fab Lab León</a>
 
