@@ -1,0 +1,883 @@
+207425518046756
+fab
+10-SOIC-EP_3.9x4.9mm_P1mm_EP2.41x3.3mm
+SOIC, 8 Pin, fab version
+SOIC fab
+0
+11
+11
+fab
+24-TSSOP-EP
+TSSOP24: plastic thin shrink small outline package; 24 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot355-1_po.pdf)
+SSOP 0.65
+0
+25
+25
+fab
+Arduino_UNO_R3_WithMountingHoles
+Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino UNO R3
+0
+32
+32
+fab
+Arduino_UNO_Shield
+Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino UNO R3
+0
+32
+32
+fab
+Bridge_Rectifier_DI_HD01-T
+4-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), SMDSocket, SmallPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil SMDSocket SmallPads
+0
+4
+4
+fab
+Button_C&K_PTS636_6x3.5mm
+Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE7.pdf
+
+0
+2
+2
+fab
+Button_Omron_B3SN_6x6mm
+Surface Mount Tactile Switch for High-Density Packaging
+Tactile Switch
+0
+4
+2
+fab
+CP_Elec_10x10mm
+SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
+capacitor electrolytic
+0
+2
+2
+fab
+CP_Elec_P3.5_D8mm
+SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
+capacitor electrolytic
+0
+2
+2
+fab
+CUIDevices_PJ-002AH-SMT-TR_PWRJack_2x5.5mm
+Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Surface Mount
+power barrel connector jack surface mount smd smt
+0
+4
+3
+fab
+CUIDevices_PJ1-023-SMT-TR_PWRJack_0.7x2.35mm
+Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Surface Mount
+power barrel connector jack surface mount smd smt
+0
+5
+3
+fab
+C_1206
+Capacitor SMD 1206, hand soldering
+capacitor 1206
+0
+2
+2
+fab
+Coin-Battery-Holder_Linx_BAT-HLD-001_D20mm
+Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798
+Keystone type 3034 coin cell retainer
+0
+3
+2
+fab
+Conn_StepStick
+
+
+0
+16
+16
+fab
+Conn_USB_A_Plain
+Plain USB Type A connector that can be cut with a PCB milling machine
+USB type A plain fab
+0
+4
+4
+fab
+Crystal_NX5032GA-20
+20MHz ±50ppm Crystal 8pF 70 Ohms 2-SMD, No Lead
+SMD SMT crystal hand-soldering
+0
+2
+2
+fab
+Diode_Schotky_100V_1A_Mini_SMA
+
+
+0
+2
+2
+fab
+ECS-CR2-20
+SMD Resomator/Filter Murata SFECV, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, 6.9x2.9mm^2 package
+SMD SMT ceramic resonator filter filter
+0
+3
+3
+fab
+ESP-WROOM-02D
+http://espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf
+ESP WROOM-02 espressif esp8266ex
+0
+19
+19
+fab
+ESP32-WROOM-32E
+Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
+0
+39
+39
+fab
+HTSSOP-16
+
+
+0
+17
+17
+fab
+Header_JST_PH_1x02_P2mm_Vertical_SMD
+
+
+0
+4
+2
+fab
+Header_JST_PH_1x03_P2mm_Vertical_SMD
+
+
+0
+5
+3
+fab
+Header_JST_PH_1x04_P2mm_Vertical_SMD
+
+
+0
+6
+4
+fab
+LED_1206
+LED SMD 1206, hand soldering
+LED 1206
+0
+2
+2
+fab
+LED_Luminus_1206
+
+
+0
+2
+2
+fab
+LED_RGB_Cree_CLV1A-FKB_3.2x2.8mm
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+fab
+LGA-14_3x5mm
+
+
+0
+14
+14
+fab
+L_1210
+Inductor SMD 1210, hand soldering
+inductor 1210
+0
+2
+2
+fab
+Mic_MEMS_Analog_Knowles_SPU0414HR5H
+HTTP://WWW.DIGIKEY.COM/PRODUCT-SEARCH/EN?KEYWORDS=423-1134-1-ND%09
+HTTP://WWW.DIGIKEY.COM/PRODUCT-SEARCH/EN?KEYWORDS=423-1134-1-ND%09
+0
+4
+4
+fab
+Mic_MEMS_Digital_Knowles_SPH0645LM4H
+HTTP://WWW.DIGIKEY.COM/PRODUCT-SEARCH/EN?KEYWORDS=423-1134-1-ND%09
+HTTP://WWW.DIGIKEY.COM/PRODUCT-SEARCH/EN?KEYWORDS=423-1134-1-ND%09
+0
+6
+6
+fab
+MicroSD_Amphenol_114-00841-68
+Wurth Elektronik MicroSD Card Holder with Lid 693072010801 http://katalog.we-online.de/em/datasheet/693072010801.pdf
+socket slot microsd sdcard card
+0
+14
+9
+fab
+Microchip_RN4871
+Microchip RN4871 footprint
+RN4871 BLE
+0
+16
+16
+fab
+MountingHole_2.5mm
+
+
+0
+0
+0
+fab
+MountingHole_2mm
+
+
+0
+0
+0
+fab
+MountingHole_3mm
+
+
+0
+0
+0
+fab
+Optical_Sensor_200cm_I2C_VL53L0X
+Small footprint laser rangefinder with 200cm range
+laser rangefinder lidar
+0
+12
+12
+fab
+PinHeader_1x01_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+1
+1
+fab
+PinHeader_1x01_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+1
+1
+fab
+PinHeader_1x01_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+1
+1
+fab
+PinHeader_1x02_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+2
+2
+fab
+PinHeader_1x02_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+2
+2
+fab
+PinHeader_1x02_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+2
+2
+fab
+PinHeader_1x03_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+3
+3
+fab
+PinHeader_1x03_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+3
+3
+fab
+PinHeader_1x03_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+3
+3
+fab
+PinHeader_1x04_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+4
+4
+fab
+PinHeader_1x04_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+4
+4
+fab
+PinHeader_1x04_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+4
+4
+fab
+PinHeader_1x05_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+5
+5
+fab
+PinHeader_1x05_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+fab
+PinHeader_1x05_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+fab
+PinHeader_1x06_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+6
+6
+fab
+PinHeader_1x06_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+fab
+PinHeader_1x06_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+fab
+PinHeader_1x07_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+7
+7
+fab
+PinHeader_1x07_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
+fab
+PinHeader_1x07_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+7
+7
+fab
+PinHeader_1x08_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+8
+8
+fab
+PinHeader_1x08_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+fab
+PinHeader_1x08_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
+fab
+PinHeader_1x09_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+9
+9
+fab
+PinHeader_1x09_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+9
+9
+fab
+PinHeader_1x09_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+9
+9
+fab
+PinHeader_1x10_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+10
+10
+fab
+PinHeader_1x10_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+10
+10
+fab
+PinHeader_1x10_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+10
+10
+fab
+PinHeader_1x11_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+11
+11
+fab
+PinHeader_1x11_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+11
+11
+fab
+PinHeader_1x11_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+11
+11
+fab
+PinHeader_1x12_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+12
+12
+fab
+PinHeader_1x12_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+12
+12
+fab
+PinHeader_1x12_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+12
+12
+fab
+PinHeader_1x13_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+13
+13
+fab
+PinHeader_1x13_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+13
+13
+fab
+PinHeader_1x13_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+13
+13
+fab
+PinHeader_1x14_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+14
+14
+fab
+PinHeader_1x14_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+14
+14
+fab
+PinHeader_1x14_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+14
+14
+fab
+PinHeader_1x15_P2.54mm_Horizontal_SMD
+datasheet: https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+15
+15
+fab
+PinHeader_1x15_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+15
+15
+fab
+PinHeader_1x15_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+15
+15
+fab
+PinHeader_1x16_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+16
+16
+fab
+PinHeader_1x16_P2.54mm_Vertical_THT_D1.4mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+16
+16
+fab
+PinHeader_1x16_P2.54mm_Vertical_THT_D1mm
+Through hole straight pin header,  2.54mm pitch, single row
+Through hole pin header THT 2.54mm single row
+0
+16
+16
+fab
+PinHeader_2x02_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x02, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x02 1.27mm double row
+0
+4
+4
+fab
+PinHeader_2x02_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x02 2.54mm double row
+0
+4
+4
+fab
+PinHeader_2x02_P2.54mm_Vertical_THT_D1.0mm
+surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x02 2.54mm double row
+0
+4
+4
+fab
+PinHeader_2x02_P2.54mm_Vertical_THT_D1.4mm
+surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x02 2.54mm double row
+0
+4
+4
+fab
+PinHeader_2x02_SWD_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x02 2.54mm double row
+0
+4
+4
+fab
+PinHeader_2x03_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x03 2.54mm double row
+0
+6
+6
+fab
+PinHeader_2x03_P2.54mm_Vertical_THT_D1.0mm
+surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x02 2.54mm double row
+0
+6
+6
+fab
+PinHeader_2x03_P2.54mm_Vertical_THT_D1.4mm
+surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x02 2.54mm double row
+0
+6
+6
+fab
+PinHeader_2x04_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x04, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x04 2.54mm double row
+0
+8
+8
+fab
+PinHeader_2x05_P1.27mm_Vertical_SMD
+surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
+Surface mounted pin header SMD 2x05 1.27mm double row
+0
+10
+10
+fab
+PinHeader_2x05_P2.54mm_Vertical_SMD
+surface-mounted straight pin header, 2x05, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x05 2.54mm double row
+0
+10
+10
+fab
+PinHeader_FTDI_01x06_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+6
+6
+fab
+PinHeader_UPDI_01x02_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+2
+2
+fab
+Potentiometer_TT_Model-23_4.5x5.0x3.0mm
+http://www.comkey.in/sites/default/files/attachments/EVM3ESX50B15.pdf
+trimmer smd
+0
+3
+3
+fab
+QFN-32_EP_5x5_Pitch0.5mm
+
+
+0
+36
+33
+fab
+Q_1206
+Transistor SMD 1206, hand soldering
+transistor photo 1206
+0
+2
+2
+fab
+R_1206
+Resistor SMD 1206, hand soldering
+resistor 1206
+0
+2
+2
+fab
+R_2010
+Resistor SMD 2010, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 2010
+0
+2
+2
+fab
+SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+fab
+SOIC-8_3.9x4.9mm_P1.27mm
+
+SOIC 1.27
+0
+8
+8
+fab
+SOIC-8_3.9x4.9mm_P1.27mm_EP2.41x3.3mm
+
+SOIC 1.27
+0
+9
+9
+fab
+SOIC-14_3.9x8.7mm_P1.27mm
+SOIC, 14 Pin, fab version
+SOIC fab
+0
+14
+14
+fab
+SOIC-20_7.5x12.8mm_P1.27mm
+SOIC, 20 Pin, fab version
+SOIC fab
+0
+20
+20
+fab
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+fab
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
+fab
+SOT-23-6
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+fab
+SOT-23W
+SOT-23W for handsoldering
+fab handsoldering
+0
+3
+3
+fab
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+fab
+SSOP-16_3.9x4.9_P0.65mm
+
+
+0
+16
+16
+fab
+Socket_FTDI_01x06_P2.54mm_Horizontal_SMD
+https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf
+horizontal pin header SMD 2.54mm
+0
+6
+6
+fab
+Switch_SPDT_C&K_AYZ0102AGRLC_7.2x3mm_P2.5mm
+http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
+0
+3
+3
+fab
+Switch_SPDT_C&K_JS102011JCQN_9x3.6mm_P2.5mm
+http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
+0
+3
+3
+fab
+TO-252
+TO-252 Package
+DPAK TO-252 DPAK-3
+0
+3
+3
+fab
+TQFP-32_7x7mm_P0.8mm
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
+fab
+TQFP-144_20x20mm_P0.5mm
+TQFP, 144 Pin (http://www.microsemi.com/index.php?option=com_docman&task=doc_download&gid=131095), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TQFP QFP
+0
+144
+144
+fab
+TSOT-23-5
+5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
+TSOT-23-5 Hand-soldering
+0
+5
+5
+fab
+TerminalBlock_OnShore_1x02_P3.50mm_Horizontal
+2 Position Wire to Board Terminal Block Horizontal with Board 0.138" (3.50mm) Through Hole
+THT Terminal Block pitch 3.5mm
+0
+2
+2
+fab
+TerminalBlock_OnShore_1x02_P5.00mm_Horizontal
+2 Position Wire to Board Terminal Block Horizontal with Board 0.197" (5.00mm) Through Hole
+THT Terminal Block pitch 5mm
+0
+2
+2
+fab
+TerminalBlock_OnShore_1x03_P3.50mm_Horizontal
+3 Position Wire to Board Terminal Block Horizontal with Board 0.138" (3.50mm) Through Hole
+THT Terminal Block pitch 3.5mm
+0
+3
+3
+fab
+VFLGA-8_2x2.5mm
+LGA-8
+lga land grid array
+0
+8
+8
+fab
+WSON-8_2x2mm_P0.5mm_EP0.9x1.6mm
+8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf
+WSON 8 1EP
+0
+9
+9
