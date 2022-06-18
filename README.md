@@ -4,7 +4,11 @@ Hemos creado de nuevo (<a href="https://www.amiguslabs.org/portfolio_page/barco-
 
 ![Barco_3D](imagenes/cinema_4d_barco.png)
 
-Se ha diseñado integramente en Cinema 4D y dividio en 32 piezas para imprimir, secciones de hasta 250x250x200mm. Para optimizar la impresión intentamos que cada sección no tardase más de 10 horas en imprimirse, para intentar imprimir por el dia y dormir por la noche :P
+Se ha diseñado integramente en Cinema 4D, con subdivisión de superficies (curvas Nurbs).
+
+![Nurbs](imagenes/barco_todo_nurbs.png)
+
+Una vez modelado, se han dividio en 32 piezas para imprimir, secciones de hasta 250x250x200mm y exportado a STL. Para optimizar la impresión intentamos que cada sección no tardase más de 10 horas en imprimirse, para intentar imprimir por el dia y dormir por la noche :P El software de slicer usado es el Simplify3D y la impresora una Ender 5 Plus.
 
 ![Barco_secciones 3D](imagenes/barco_partes.png)
 
