@@ -71,11 +71,11 @@ Con los limites de potencia y memoria del Attiny1614, hemos implementado el uso 
 
 1x Castropox 4307/1209 Resina Epoxi de usos generales (<a href="https://www.castrocompositesshop.com/es/resinas/1099-resina-epoxi-castropox-43071209.html" target="_blank">Castro Composites</a>)
 
-1x Massilla Caarrocerias Ceys (<a href="https://www.amazon.es/Desconocido-M59016-Adhesivo-masilla-carrocerias/dp/B00ITVXML6" target="_blank">Amazon</a>)
+1x Masilla Carrocerias Ceys (<a href="https://www.amazon.es/Desconocido-M59016-Adhesivo-masilla-carrocerias/dp/B00ITVXML6" target="_blank">Amazon</a>)
 
 3x Imprimación Plástico (<a href="https://www.amazon.es/MTN-IMPRIMACIÓN-PLÁSTICOS-400-ML/dp/B00WG2K6W2/ref=sr_1_15?__mk_es_ES=ÅMÅŽÕÑ&crid=2E2QZXNCDXAI6&keywords=imprimacion&qid=1655512005&sprefix=imprimacion%2Caps%2C124&sr=8-15" target="_blank">Amazon</a>)
 
-1x soporte helice y timon (<a href="https://es.aliexpress.com/item/32901476708.html" target="_blank">Aliexpress</a>)
+1x soporte helice y timón (<a href="https://es.aliexpress.com/item/32901476708.html" target="_blank">Aliexpress</a>)
 
 100x Inserto roscado M3 (<a href="https://www.amazon.es/gp/product/B08BCRZZS3/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1" target="_blank">Amazon</a>)
 
