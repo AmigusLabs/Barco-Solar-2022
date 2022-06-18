@@ -37,6 +37,10 @@ Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, 
 
 1x Acoplamiento Motor 4x5mm (<a href="https://www.amazon.es/gp/product/B09LV3KD4H/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&th=1" target="_blank">Amazon</a>)
 
+1x Motor NTM Prop Drive 28-30 800KV (<a href="https://hobbyking.com/es_es/propdrive-v2-2830-800kv-brushless-outrunner-motor.html" target="_blank">Hobbyking</a>)
+
+1x Turnigy Multistart 20A V2 ESC (<a href="https://hobbyking.com/es_es/turnigy-multistar-20a-v2-esc-with-blheli-and-4a-lbec-2-6s.html" target="_blank">Hobbyking</a>)
+
 ## Enlaces
 
 - <a href="http://regatasolar.org" target="_blank">Regata Solar de Marine Instruments</a>
