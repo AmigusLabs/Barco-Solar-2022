@@ -22,6 +22,8 @@ Para darle el acabado final, una vez pegadas todas las piezas, se ha aplicado im
 
 Para encajar las partes de electrónica al barco, así como el soporte de la placa solar, se han usado unos insertos de M5 y M3 aplicados con solador, que evitan el uso de tuercas y hacen que las zonas de enrosque queden bien sujetas.
 
+![Montaje](imagenes/montaje7.png)
+
 ![Montaje](imagenes/montaje.jpg)
 
 ![Montaje](imagenes/montaje1.png)
@@ -53,9 +55,9 @@ Con los limites de potencia y memoria del Attiny1614, hemos implementado el uso 
 
 ![PCB](imagenes/pcb1.png)
 
-![PCB](imagenes/pcb1.jpg)
+![PCB](imagenes/pcb1.png)
 
-![PCB](imagenes/pcb2.jpg)
+![PCB](imagenes/pcb2.png)
 
 ## Materiales
 
