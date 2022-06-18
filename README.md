@@ -55,9 +55,9 @@ Con los limites de potencia y memoria del Attiny1614, hemos implementado el uso 
 
 ![PCB](imagenes/pcb1.png)
 
-![PCB](imagenes/pcb1.png)
-
 ![PCB](imagenes/pcb2.png)
+
+![PCB](imagenes/pcb3.png)
 
 ## Materiales
 
