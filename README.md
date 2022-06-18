@@ -23,6 +23,8 @@ Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, 
 
 8x PETG 1Kg Blanco 1.75mm (<a href="https://www.amazon.es/dp/B08C4YP5RS/ref=twister_B08HSFRV2M?_encoding=UTF8&th=1" target="_blank">Amazon</a>)
 
+1x Smartfil FLEX - Filamento Flexible (<a href="https://www.smartmaterials3d.com/flex-filamento#/1-tamano-s_330g/26-diametro-175_mm/29-color-sapphire" target="_blank">Smart Materials 3D</a>)
+  
 3x Tubos cuadrados de 10x10x500mm - <a href="https://www.clipcarbono.com/es/home/947-tubo-exterior-cuadrado-10x10-mm-interior-cuadrado-8x8-mm-de-fibra-de-carbono-longitud-1000-mm.html" target="_blank">Tubo cuadrado, exterior (10x10 mm.) - interior (8x8 mm.) de fibra de carbono - Longitud 1000 mm.</a> Cortesía de <a href="https://www.clipcarbono.com" target="_blank">ClipCarbono</a>
 
 1x Castropox 4307/1209 Resina Epoxi de usos generales (<a href="https://www.castrocompositesshop.com/es/resinas/1099-resina-epoxi-castropox-43071209.html" target="_blank">Castro Composites</a>)
