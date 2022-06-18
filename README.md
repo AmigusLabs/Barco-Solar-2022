@@ -22,6 +22,8 @@ Para darle el acabado final, una vez pegadas todas las piezas, se ha aplicado im
 
 Para encajar las partes de electrónica al barco, así como el soporte de la placa solar, se han usado unos insertos de M5 y M3 aplicados con solador, que evitan el uso de tuercas y hacen que las zonas de enrosque queden bien sujetas.
 
+Para las tapas se ha usado goma Eva cortado en laser para hacer las zonas de unión impermeables (gracias a <a href="https://fablableon.org" target="_blank">Fab Lab León</a> y <a href="https://www.esne.es" target="_blank">ESNE</a> por facilitarnos el corte en sus máquinas).
+
 ![Montaje](imagenes/montaje7.png)
 
 ![Montaje](imagenes/montaje.jpg)
