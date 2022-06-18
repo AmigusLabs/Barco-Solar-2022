@@ -41,11 +41,21 @@ Para encajar las partes de electrónica al barco, así como el soporte de la pla
 
 Hemos intentado hacer una nueva PCB partiendo de un Attiny1614. Se ha diseñado la pcb en KiCAD, integrando un sensor INA219 para la optimización del voltaje y potencia de la placa solar basandonos en la propuesta de <a href="https://github.com/aindustriosa/Solar_MPPT_board" target="_blank">A Industriosa</a> del año 2019.
 
-![Montaje](imagenes/pcb.png)
+![KiCAD](imagenes/kicad1.png)
+
+![KiCAD](imagenes/kicad2.png)
+
+![KiCAD](imagenes/kicad3.png)
 
 Con los limites de potencia y memoria del Attiny1614, hemos implementado el uso del sensor así como un divisor de voltaje para leerlo via VREF. Los mensajes enviados desd eel mando RC al receptor, son procesados por el microcontrolador y en caso de exigirle una velocidad mayor al 30% entra en modo automático, y prioriza el rendimiento que este generando la placa solar en ese momento a optener la velocidad optima sin permitir la caida de potencia por un exceso del rendimiento de la placa solar.
 
+![PCB](imagenes/pcb.png)
 
+![PCB](imagenes/pcb1.png)
+
+![PCB](imagenes/pcb1.jpg)
+
+![PCB](imagenes/pcb2.jpg)
 
 ## Materiales
 
