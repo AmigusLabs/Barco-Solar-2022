@@ -14,13 +14,15 @@ Una vez modelado, se han dividio en 32 piezas para imprimir, secciones de hasta 
 
 Evitanto el uso de soportes a la hora de imprimir se han hecho algunas secciones que finalmente se pegan para poder imprimir sobre el lado más plano y evitar luego el postprocesado.
 
-Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, se han hecho unas secciones en cada pieza para pegar y encajar unos pequeños tubos impresos de unos 10x10x50mm. Se ha pegado todas las partes con pegamento para modelismo comprado en bazar chino, tarda unas 4 horas en secar y quedan las piezas muy rígidas.
+Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, se han hecho unas secciones en cada pieza para pegar y encajar unos pequeños tubos impresos de unos 10x10x50mm. Se ha pegado todas las partes con pegamento para modelismo comprado en bazar chino, tarda unas 4 horas en secar y quedan las piezas muy rígidas. En las zonas que por sharping de las piezas hizo falta se relleno de masilla para carrocerías de Ceys. 
 
 ![Insertos-PETG](imagenes/1-inserto_petg.png)
 
 Para darle el acabado final, una vez pegadas todas las piezas, se ha aplicado imprimación de color blanco y posteriormente una mano de Epoxi. En el montaje, en las zonas más irregulares se le aplicó un poco de lijado.
 
 Para encajar las partes de electrónica al barco, así como el soporte de la placa solar, se han usado unos insertos de M5 y M3 aplicados con solador, que evitan el uso de tuercas y hacen que las zonas de enrosque queden bien sujetas.
+
+![Insertos-PETG](imagenes/1-inserto_petg.png)
 
 ## Electrónica
 
@@ -39,6 +41,8 @@ Con los limites de potencia y memoria del Attiny1614, hemos implementado el uso 
 3x Tubos cuadrados de 10x10x500mm - <a href="https://www.clipcarbono.com/es/home/947-tubo-exterior-cuadrado-10x10-mm-interior-cuadrado-8x8-mm-de-fibra-de-carbono-longitud-1000-mm.html" target="_blank">Tubo cuadrado, exterior (10x10 mm.) - interior (8x8 mm.) de fibra de carbono - Longitud 1000 mm.</a> Cortesía de <a href="https://www.clipcarbono.com" target="_blank">ClipCarbono</a>
 
 1x Castropox 4307/1209 Resina Epoxi de usos generales (<a href="https://www.castrocompositesshop.com/es/resinas/1099-resina-epoxi-castropox-43071209.html" target="_blank">Castro Composites</a>)
+
+1x Massilla Caarrocerias Ceys (<a href="https://www.amazon.es/Desconocido-M59016-Adhesivo-masilla-carrocerias/dp/B00ITVXML6" target="_blank">Amazon</a>)
 
 3x Imprimación Plástico (<a href="https://www.amazon.es/MTN-IMPRIMACIÓN-PLÁSTICOS-400-ML/dp/B00WG2K6W2/ref=sr_1_15?__mk_es_ES=ÅMÅŽÕÑ&crid=2E2QZXNCDXAI6&keywords=imprimacion&qid=1655512005&sprefix=imprimacion%2Caps%2C124&sr=8-15" target="_blank">Amazon</a>)
 
