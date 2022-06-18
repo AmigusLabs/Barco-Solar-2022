@@ -22,11 +22,26 @@ Para darle el acabado final, una vez pegadas todas las piezas, se ha aplicado im
 
 Para encajar las partes de electrónica al barco, así como el soporte de la placa solar, se han usado unos insertos de M5 y M3 aplicados con solador, que evitan el uso de tuercas y hacen que las zonas de enrosque queden bien sujetas.
 
-![Insertos-PETG](imagenes/1-inserto_petg.png)
+![Montaje](imagenes/montaje.png)
+
+![Montaje](imagenes/montaje1.png)
+
+![Montaje](imagenes/montaje2.png)
+
+![Montaje](imagenes/montaje3.png)
+
+![Montaje](imagenes/montaje4.png)
+
+![Montaje](imagenes/montaje5.png)
+
+![Montaje](imagenes/montaje6.png)
+
 
 ## Electrónica
 
 Hemos intentado hacer una nueva PCB partiendo de un Attiny1614. Se ha diseñado la pcb en KiCAD, integrando un sensor INA219 para la optimización del voltaje y potencia de la placa solar basandonos en la propuesta de <a href="https://github.com/aindustriosa/Solar_MPPT_board" target="_blank">A Industriosa</a> del año 2019.
+
+![Montaje](imagenes/pcb.png)
 
 Con los limites de potencia y memoria del Attiny1614, hemos implementado el uso del sensor así como un divisor de voltaje para leerlo via VREF. Los mensajes enviados desd eel mando RC al receptor, son procesados por el microcontrolador y en caso de exigirle una velocidad mayor al 30% entra en modo automático, y prioriza el rendimiento que este generando la placa solar en ese momento a optener la velocidad optima sin permitir la caida de potencia por un exceso del rendimiento de la placa solar.
 
