@@ -29,6 +29,12 @@ Una vez impresas las piezas, y para facilitar la rigidez a la hora de pegarlas, 
 
 1x soporte helice y timon (<a href="https://es.aliexpress.com/item/32901476708.html" target="_blank">Aliexpress</a>)
 
+100x Inserto roscado M3 (<a href="https://www.amazon.es/gp/product/B08BCRZZS3/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1" target="_blank">Amazon</a>)
+
+6x Inserto roscado M5 (<a href="https://www.amazon.es/gp/product/B07YSVXWS8/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1" target="_blank">Amazon</a>)
+
+1x Acoplamiento Motor 4x5mm (<a href="https://www.amazon.es/gp/product/B09LV3KD4H/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&th=1" target="_blank">Amazon</a>)
+
 ## Enlaces
 
 - <a href="http://regatasolar.org" target="_blank">Regata Solar de Marine Instruments</a>
