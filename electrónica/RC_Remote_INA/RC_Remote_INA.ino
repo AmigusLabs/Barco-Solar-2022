@@ -142,12 +142,13 @@ void loop() {
         po_speed = PO_ENABLE_SPEED;
         po_speed += PO_STEP;
 
-
-        v_media = 0;
-        i_media = 0;
       }
     }
 
+
+
+    v_media = 0;
+    i_media = 0;
 
     for (int i = 0; i < po_samples; i++)
     {
@@ -204,8 +205,6 @@ void loop() {
   p_prev = p;
   v_prev = v;
 
-  v_media = 0;
-  i_media = 0;
 
   if (po_speed >= 100) {
     po_speed = 100;
@@ -217,15 +216,15 @@ void loop() {
     Serial.print(velocidad);
     Serial.print(",");
     if (po_enable) {
-      Serial.print("---Activo---,"); //modo P
+      Serial.print("---Activo---,Vel: "); //modo P
       Serial.print(po_speed);
     } else {
-      Serial.print("---Desactivado---,"); // modo s
+      Serial.print("---Desactivado---,Vel: "); // modo s
       Serial.print(velocidad);
     }
-    Serial.print(",");
+    Serial.print(",Vol: ");
     Serial.print(v);
-    Serial.print(",");
+    Serial.print(",Pow: ");
     Serial.print(i);
     Serial.println(",");
 
