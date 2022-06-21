@@ -3,6 +3,7 @@
 #include "Config.h"
 #include <Servo.h>
 #include "Arduino.h"
+#include "ListLib.h"
 
 //---------------DEBUG---------------
 //#define PIN_DEBUG 8
@@ -13,7 +14,11 @@ bool DEBUG = true;
 #define PO_ENABLE_SPEED 30
 #define PO_TIMER 150
 #define PO_STEP 1
-#define po_samples 10
+#define po_samples 20
+
+List<float> listVol;
+List<float> listAmp;
+
 float v = 0;
 float i = 0;
 float p = 0;
@@ -70,6 +75,12 @@ void setup() {
 
   po_enable = false; //indicamos que iniciamos en speed
 
+  for (int i = 0; i <= po_samples; i++)
+  {
+    listVol.Add(0);
+    listAmp.Add(0);
+  }
+
 }
 
 bool switchActivado()
@@ -78,8 +89,10 @@ bool switchActivado()
   unsigned long value2 = pulseIn(RECEPTOR_CH6_PIN, HIGH, timeout_pwm_micros);
   if ((value1 > 1200) && (value2 > 1200))
   {
+    Serial.println("Modo Manual");
     return false;
   }
+  Serial.println("Modo Automático");
   return true;
 }
 
@@ -96,119 +109,135 @@ void loop() {
   Serial.print(" - Potencia: ");
   Serial.println(get_LoadCurrent());
 
-  if (velocidad > 100) {
+  if (velocidad >= 100) {
     velocidad = 100;
   }
 
 
+  listVol.RemoveFirst();
+  listAmp.RemoveFirst();
+
+  listVol.Add(get_LoadVolts());
+  listAmp.Add(get_LoadCurrent() / Ki);
+
 
   if (switchActivado())
   {
-    if (cnt_po_ina_samples < po_samples) { //samplea cada 150/10 --> 15ms
-      v_media += get_LoadVolts();
-      i_media += get_LoadCurrent() / Ki;
-      cnt_po_ina_samples++;
 
-    } else { // Al los 10 samples 10*15 --> 150ms se ejecuta el P&O
+    if (velocidad < 0) velocidad = 0;
+    if (velocidad < PO_ENABLE_SPEED) { //Si po_speed <30, vel fijada x mando
+      po_enable = false; //indicamos que estamos en modo speed
+      cnt_po = 1; //reseteamos indicador de P&O para que cuando comience se resetee en ciclo 1 y pille speed
+    } else {
 
-      v = v_media / po_samples;
-      i = i_media / po_samples;
-      p = i * v;
-      Av = v - v_prev;
-      Ap = p - p_prev;
-
-      //DEBUG = digitalRead(PIN_DEBUG);
-      if (velocidad < 0) velocidad = 0;
-      if (velocidad < PO_ENABLE_SPEED) { //Si po_speed <30, vel fijada x mando
-        po_enable = false; //indicamos que estamos en modo speed
-        cnt_po = 1; //reseteamos indicador de P&O para que cuando comience se resetee en ciclo 1 y pille speed
-      } else { //Si po_speed >50 entra P&0
-        /*
-          ----------COMIENZA P&O--------------------
-        */
-
-        if (cnt_po != 1) {
-          if (Ap == 0) {
-            po_speed += PO_STEP;
-            //Serial.println("AP=0");
-          } else {
-            if (Ap > 0) {
-              //Serial.println("AP>0");
-              if (Av < 0) {
-                po_speed += PO_STEP;
-                velocidad = po_speed;
-                //Serial.println("B2");
-
-              } else if (Av >= 0) {
-                po_speed -= PO_STEP;
-                velocidad = po_speed;
-                //Serial.println("B1");
-              }
-            } else {
-              //Serial.println("AP<0");
-              if (Av > 0) {
-                po_speed += PO_STEP;
-                velocidad = po_speed;
-                //Serial.println("A2");
-              } else if (Av <= 0) {
-                po_speed -= PO_STEP;
-                velocidad = po_speed;
-                //Serial.println("A1");
-              }
-            }
-          }
-        } else { //Es l primer sample de PO
-          po_enable = true;
-          po_speed = PO_ENABLE_SPEED;
-          po_speed += PO_STEP;
+      if (cnt_po == 1) {
+        for (int i = 0; i <= po_samples; i++)
+        {
+          listVol.Add(get_LoadVolts());
+          listAmp.Add(get_LoadCurrent() / Ki);
         }
+        cnt_po == 0;
 
-        cnt_po++;
-        /*
-          ----------FIN P&O--------------------
-        */
+        po_enable = true;
+        po_speed = PO_ENABLE_SPEED;
+        po_speed += PO_STEP;
 
-      }//end if vel o P&or
 
-      p_prev = p;
-      v_prev = v;
-
-      v_media = 0;
-      i_media = 0;
-      cnt_po_ina_samples = 0; //reseteamos contador de samples para k comience con los sig 10
-
-      if (po_speed >= 100) {
-        po_speed = 0;
+        v_media = 0;
+        i_media = 0;
       }
-      
-      if (DEBUG) {
-        Serial.println("TX_PPM,Mode,ESC_PPM,Voltage,Current,Power");
-        Serial.println();
-        Serial.print(velocidad);
-        Serial.print(",");
-        if (po_enable) {
-          Serial.print("---Activo---,"); //modo P
-          Serial.print(po_speed);
-        } else {
-          Serial.print("---Desactivado---,"); // modo s
-          Serial.print(velocidad);
-        }
-        Serial.print(",");
-        Serial.print(v);
-        Serial.print(",");
-        Serial.print(i);
-        Serial.println(",");
-
-      }//end loop samples
-
     }
+
+
+    for (int i = 0; i < po_samples; i++)
+    {
+      v_media += listVol[i];
+      i_media += listVol[i];
+    }
+
+    v = v_media / po_samples;
+    i = i_media / po_samples;
+
+    p = i * v;
+
+    Av = v - v_prev;
+    Ap = p - p_prev;
+
+    //DEBUG = digitalRead(PIN_DEBUG);
+    //Si po_speed >50 entra P&0
+    /*
+      ----------COMIENZA P&O--------------------
+    */
+
+    if (Ap == 0) {
+      po_speed += PO_STEP;
+      //Serial.println("AP=0");
+    } else {
+      if (Ap > 0) {
+        //Serial.println("AP>0");
+        if (Av < 0) {
+          po_speed += PO_STEP;
+          velocidad = po_speed;
+          //Serial.println("B2");
+
+        } else if (Av >= 0) {
+          po_speed -= PO_STEP;
+          velocidad = po_speed;
+          //Serial.println("B1");
+        }
+      } else {
+        //Serial.println("AP<0");
+        if (Av > 0) {
+          po_speed += PO_STEP;
+          velocidad = po_speed;
+          //Serial.println("A2");
+        } else if (Av <= 0) {
+          po_speed -= PO_STEP;
+          velocidad = po_speed;
+          //Serial.println("A1");
+        }
+      }
+    }
+
   }
 
- // Serial.print("Velocidad procesada: ");
- // Serial.println(velocidad);
+  p_prev = p;
+  v_prev = v;
+
+  v_media = 0;
+  i_media = 0;
+
+  if (po_speed >= 100) {
+    po_speed = 100;
+  }
+
+  if (DEBUG) {
+    Serial.println("TX_PPM,Mode,ESC_PPM,Voltage,Current,Power");
+    Serial.println();
+    Serial.print(velocidad);
+    Serial.print(",");
+    if (po_enable) {
+      Serial.print("---Activo---,"); //modo P
+      Serial.print(po_speed);
+    } else {
+      Serial.print("---Desactivado---,"); // modo s
+      Serial.print(velocidad);
+    }
+    Serial.print(",");
+    Serial.print(v);
+    Serial.print(",");
+    Serial.print(i);
+    Serial.println(",");
+
+  }
+
+
+
+  // Serial.print("Velocidad procesada: ");
+  // Serial.println(velocidad);
 
   ms = map(velocidad, 0, 100, 1000, 2000);
   ESC.writeMicroseconds(ms);
-
+  delay(15);
 
 }
