@@ -96,4 +96,4 @@ Con los limites de potencia y memoria del Attiny1614, hemos implementado el uso 
 - <a href="https://fablableon.org" target="_blank">Fab Lab León</a>
 - <a href="https://www.esne.es" target="_blank">ESNE</a>
 
-
+Proxecto patrocinado por Xunta de Galicia e Amtega Axencia para a Modernización Tecnolóxica
